@@ -1,6 +1,6 @@
 FROM openjdk:8-jre-alpine
 
-ENV VERSION 5.0
+ENV VERSION 5.2
 
 RUN cd /opt && \
   wget https://www.languagetool.org/download/LanguageTool-$VERSION.zip && \
